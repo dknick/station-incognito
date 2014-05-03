@@ -1,4 +1,4 @@
-Wsystem hat is this station?
+What is this station?
 =====================
 
 The Station Incognito is a tool for the establishment of a cloak of anonymity
