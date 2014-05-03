@@ -1,0 +1,36 @@
+FORGE
+  remote: http://forge.puppetlabs.com
+  specs:
+    inkblot/redsocks (1.1.1)
+      puppetlabs/stdlib (>= 4.1.0)
+      ripienaar/module_data (>= 0.0.1)
+    inkblot/shorewall (4.1.3)
+      puppetlabs/concat (>= 1.0.0)
+      puppetlabs/stdlib (>= 4.1.0)
+    inkblot/tor (1.1.0)
+    puppetlabs/concat (1.1.0-rc1)
+      puppetlabs/stdlib (>= 3.0.0)
+    puppetlabs/stdlib (4.1.0)
+    ripienaar/concat (0.2.0)
+    ripienaar/module_data (0.0.1)
+
+GIT
+  remote: git@github.com:xaque208/puppet-unbound.git
+  ref: master
+  sha: c298299b35f4b018cfa03224a5250950c4cef44f
+  specs:
+    unbound (1.0.0)
+      ripienaar/concat (>= 0)
+
+PATH
+  remote: incognito
+  specs:
+    incognito (0.0.1)
+
+DEPENDENCIES
+  incognito (>= 0)
+  inkblot/redsocks (>= 0)
+  inkblot/shorewall (>= 0)
+  inkblot/tor (>= 0)
+  unbound (>= 0)
+
